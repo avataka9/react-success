@@ -1,0 +1,47 @@
+/*this file is generated, find the source with scss extension */
+
+@font-face {
+  font-family: 'CenturyGothicRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/CenturyGothicRegular/CenturyGothicRegular.woff2') format('woff2'),
+       url('./fonts/CenturyGothicRegular/CenturyGothicRegular.woff') format('woff'),
+       url('./fonts/CenturyGothicRegular/CenturyGothicRegular.ttf') format('truetype');
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  min-width: 320px;
+  height: 100%;
+  font-family: 'CenturyGothicRegular', Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/*============================
+=           HEADER           =
+============================*/
+@import "./styles/header";
+
+/*============================
+=            MAIN            =
+============================*/
+@import "./styles/main";
+
+/*============================
+=           FOOTER           =
+============================*/
+@import "./styles/footer";

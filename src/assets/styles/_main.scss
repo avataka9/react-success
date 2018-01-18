@@ -1,0 +1,35 @@
+.main {
+  flex: 1 0 auto;
+  background: #fff;
+  position: relative;
+
+  .sidebar {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 30;
+    transition: opacity 0.3s;
+
+    &--open {
+      opacity: 1;
+    }
+
+    @media (min-width: 545px) {
+      background: #ebebeb;
+      width: 300px;
+      padding: 30px 30px;
+    }
+
+    @media (max-width: 544px) {
+
+    }
+  }
+
+  /*=====  INDEX PAGE  ======*/
+  @import "./indexPage";
+
+  /*=====  INDEX PAGE  ======*/
+  @import "./collectionPage";
+}
